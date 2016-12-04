@@ -1,0 +1,5 @@
+[Tue Jan 31 14:45:38.544391 2017] [:error] [pid 1883] [client 127.0.0.1:59888] script '/opt/lampp/htdocs/kr3sk4/login.php' not found or unable to stat
+[Tue Jan 31 16:10:59.151503 2017] [:error] [pid 3633] [client ::1:44408] script '/opt/lampp/htdocs/kr3sk4/login.php' not found or unable to stat
+[Wed Feb 01 11:35:24.973364 2017] [:error] [pid 2295] [client ::1:58368] script '/opt/lampp/htdocs/kr3sk4/login.php' not found or unable to stat, referer: http://localhost/lista6/src/index.php
+[Wed Feb 01 11:35:42.459371 2017] [:error] [pid 2296] [client ::1:58370] script '/opt/lampp/htdocs/kr3sk4/login.php' not found or unable to stat, referer: http://localhost/lista6/
+[Wed Feb 01 11:35:56.461750 2017] [:error] [pid 1686] [client ::1:58374] script '/opt/lampp/htdocs/kr3sk4/index.php' not found or unable to stat, referer: http://localhost/lista6/src/login.php

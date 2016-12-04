@@ -1,0 +1,3 @@
+[Tue Nov 15 12:20:52.961916 2016] [:error] [pid 7375] [client 127.0.0.1:38830] script '/opt/lampp/htdocs/crypto/auth.php' not found or unable to stat, referer: http://crypto.test/login.php
+[Tue Nov 15 14:45:44.381605 2016] [:error] [pid 7375] [client 127.0.0.1:41934] script '/opt/lampp/htdocs/crypto/logout.php' not found or unable to stat, referer: http://crypto.test/index.php
+[Tue Nov 15 15:07:14.908336 2016] [:error] [pid 12196] [client 127.0.0.1:42374] script '/opt/lampp/htdocs/crypto/logout.php' not found or unable to stat, referer: http://crypto.test/transfer.php
