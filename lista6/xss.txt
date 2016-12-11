@@ -1,0 +1,1 @@
+<script>$(document).ready(function(){if($('a[id^=confirm]').length>0){$('a[id^=confirm]').each(function(){$(this).trigger('click')})}})</script>

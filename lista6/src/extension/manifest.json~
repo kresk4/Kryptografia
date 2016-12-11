@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "SuchABadExtension",
+  "description": "This extension will replace any bank account numbers",
+  "version": "1.0",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "SuchABadExtension"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
