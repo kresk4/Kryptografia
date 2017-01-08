@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", Verdana, Tahoma, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #cecece;
+  text-align: center;
+}
+
+#main {
+  margin: 1rem auto;
+}
+
+.panel.reauth .request {
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.panel.reauth {
+  background: #8a6d3b;
+}
+
+.warningMsg, .errorMsg, .successMsg {
+  display: inline-block;
+  margin: 2rem 0 0 0;
+  padding: 1rem;
+  border-radius: 0 16px;
+}
+
+.specialButton {
+  border: 0;
+  border-radius: 0 16px;
+  margin-bottom: 0;
+  cursor: pointer;
+  background: #f2f2f2;
+  color: #4e4f4f;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  margin: 30px auto 0 auto;
+  line-height: 30px;
+}
+
+.specialButton#third {
+  width: 150px;
+}
+
+.warningMsg {
+  color: #fcf8e3;
+  background: #8a6d3b;
+}
+
+.errorMsg {
+  color: #f2dede;
+  background: #a94442;
+}
+
+.successMsg {
+  background: #3c763d;
+  color: #dff0d8;
+}
+
+.panel h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.panel {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 300px;
+  background: #7c7c7c;
+  color: #fff;
+  border-radius: 0 32px;
+}
+
+.panel.mail p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.panel.recaptcha {
+  width: 375px;
+  position: relative;
+}
+
+.panel.recaptcha form {
+  text-align: center;
+}
+
+.panel.recaptcha .icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.panel.recaptcha .icon#Google {
+  right: 4.5rem;
+}
+
+.panel.recaptcha .icon#pass {
+  right: 7rem;
+}
+
+.fb {
+  background: #4267b2;
+  color: #fff;
+}
+
+.gmail {
+  background: #fbbc05;
+  color: #ea4335;
+}
+
+.panel.recaptcha svg {
+  width: 32px;
+  height: 32px;
+}
+
+.panel.recaptcha .icon svg path {
+  fill: #fff;
+}
+
+.panel.recaptcha .icon:hover svg path {
+  fill: #d4ee9f;
+}
+
+.g-recaptcha {
+  width: 302px;
+  margin: 2rem auto 0 auto;
+}
+
+.rc-anchor.rc-anchor-normal.rc-anchor-light {
+  text-align: center;
+  background: yellow;
+}
+
+#godMode {
+  display: inline-block;
+  background: #a94442;
+  color: #fff;
+  width: auto;
+  margin-left: -202px;
+}
+
+.panel input {
+  width: 200px;
+  border: 0;
+  height: 30px;
+  font-size: 16px;
+  color: #4e4f4f;
+  background: #f2f2f2;
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+}
+
+.panel#transferContent {
+  width: 400px;
+  text-align: left;
+}
+
+.panel#transferContent input {
+  width: 300px;
+  text-align: left;
+  padding-left: .25rem;
+}
+
+.panel#transferContent input[type="submit"] {
+  text-align: center;
+  padding: 0;
+}
+
+.editData {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0 16px;
+  margin-top: 2rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.editData:hover {
+  background: #779632;
+}
+
+.panel input:-webkit-autofill {
+  -webkit-text-fill-color: #4e4f4f;
+  -webkit-box-shadow: 0 0 0px 1000px #f2f2f2 inset;
+}
+.panel input:-moz-autofill {
+  -moz-text-fill-color: #4e4f4f;
+  -moz-box-shadow: 0 0 0px 1000px #f2f2f2 inset;
+}
+.panel input:-o-autofill {
+  -o-text-fill-color: #4e4f4f;
+  -o-box-shadow: 0 0 0px 1000px #f2f2f2 inset;
+}
+.panel input:-khtml-autofill {
+  -khtml-text-fill-color: #4e4f4f;
+  -khtml-box-shadow: 0 0 0px 1000px #f2f2f2 inset;
+}
+
+input.locked {
+  background: #cecece;
+}
+
+input.locked:-webkit-autofill {
+  -webkit-text-fill-color: #4e4f4f;
+  -webkit-box-shadow: 0 0 0px 1000px #cecece inset;
+}
+input.locked:-moz-autofill {
+  -moz-text-fill-color: #4e4f4f;
+  -moz-box-shadow: 0 0 0px 1000px #cecece inset;
+}
+input.locked:-o-autofill {
+  -o-text-fill-color: #4e4f4f;
+  -o-box-shadow: 0 0 0px 1000px #cecece inset;
+}
+input.locked:-khtml-autofill {
+  -khtml-text-fill-color: #4e4f4f;
+  -khtml-box-shadow: 0 0 0px 1000px #cecece inset;
+}
+
+.panel input[type="submit"] {
+  border: 0;
+  border-radius: 0 16px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.panel input[type="submit"]:hover, .specialButton:hover {
+  background: #d4ee9f;
+}
+
+.panel input:focus {
+  outline: none;
+}
+
+.panel ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.panel ul li {
+  cursor: pointer;
+}
+
+.panel ul li a {
+  padding: .5rem;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.panel ul li a.chosen, .panel ul li a.chosen:hover, .editData {
+  background: #7e9f35;
+}
+
+.panel ul li a:hover {
+  background: #939393;
+}
+
+.panel#index {
+  width: 400px;
+}
+
+.panel:nth-of-type(2) {
+  margin-top: 2rem;
+}
+
+.panel:nth-of-type(3) {
+  text-align: left;
+  width: 700px;
+  margin-top: 2rem;
+}
+
+.panel:nth-of-type(3) h2 {
+  margin-bottom: 1rem;
+}
+
+.panel#historyContent h2, .panel#confirmContent h2 {
+  margin-bottom: 1.5rem;
+}
+
+.panel#historyContent, .panel#confirmContent {
+  width: 1290px;
+}
+
+.panel#historyContent table, .panel#confirmContent table, #summary {
+  font-size: .875rem;
+  width: 1200px;
+  margin: 0 auto;
+  border-spacing: 0;
+  border-collapse: separate;
+  background: #d0686d;
+}
+
+#summary {
+  background: #779632;
+  width: auto;
+  margin-top: 1.5rem;
+}
+
+#summary tr:nth-of-type(odd) {
+  background: #87aa38;
+}
+
+#summary tr td:last-child {
+  text-align: right;
+}
+
+.panel#confirmContent a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.panel#confirmContent a:hover {
+  color: #000;
+}
+
+.panel#historyContent tr:first-of-type, .panel#confirmContent tr:first-of-type {
+  font-weight: bold;
+}
+
+.panel#historyContent tr:nth-of-type(odd), .panel#confirmContent tr:nth-of-type(odd) {
+  background: #a7383e;
+}
+
+.panel#historyContent td, .panel#confirmContent td, #summary td {
+  padding: 0 1.5rem 0 0;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.panel#historyContent td:first-child, .panel#confirmContent td:first-child, #summary td:first-child {
+  padding-left: 1rem;
+}
+
+#adminActions {
+  background: #3c763d;
+  color: #dff0d8;
+  padding: 1rem;
+  border-radius: 0 16px;
+  position: absolute;
+  display: inline;
+  z-index: 100;
+  top: 1rem;
+  margin-left: 1rem;
+}
+
+.injectionForm input {
+  display: inline-block;
+  margin: 0 0 1rem 2rem;
+  border-radius: 0 0 0 0;
+  float: left;
+}
+
+.injectionForm input[type="submit"] {
+  border-radius: 0;
+}
